@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightHeading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #000000;
+}
+
+.darkHeading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.lightButton {
+  padding: 10px;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #000000;
+}
+
+.darkButton {
+  padding: 10px;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #000000;
+}
+
+.contentLightContainer {
+  border: 1px solid;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contentDarkContainer {
+  border: 1px solid;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
